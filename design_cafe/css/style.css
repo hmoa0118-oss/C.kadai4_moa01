@@ -1,0 +1,243 @@
+@charset "utf-8";
+
+body{
+    background-color: #e8d9bf ;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header_inner {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2.86%;
+    padding-right: 7.55%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    width: 226px;
+}
+
+.header_nav ul{
+    display: flex;
+    gap: 70px;
+}
+
+.header_nav a{
+    color: #fff;
+    font-size: 18px;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium",
+    "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: bold;
+}
+
+
+
+.second{
+    text-align: center;
+    
+}
+.hhd{
+    
+    margin-top: 110px;
+    margin-bottom: 70px;
+    font-size: 30px;
+}
+.main{
+    line-height: 1.17;
+    letter-spacing: 10%;
+    font-size: 82px;
+    margin-bottom: 60px;
+}
+.s-text{
+    line-height: 1.65;
+    padding-bottom: 100px;
+    font-size: 23px;
+    
+}
+
+
+
+.section1{
+    display: flex;
+    justify-content: center;
+    gap: 0 86px;
+    padding:0 10px;
+    margin-bottom: 110px;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.aboutus{
+    padding-top: 64px;
+    width: 45%;
+    height: auto;
+}
+.img-about {
+    height: 560px;
+    width: 560px;
+}
+
+.midashi-logo img{
+    height: 78px;
+    width: auto;
+
+}
+
+     
+.aboutus2{
+    font-size: 44px;
+    margin-top: 60px;
+    margin-bottom: 42px;
+    line-height: 1.38;
+}
+.s-txst2{
+    line-height: 1.62;
+    font-size: 16px;
+    
+}
+
+.section2 .midashi-logo{
+    text-align: center;
+    margin-top: 110px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    width: 100%;
+    gap:0 4%;
+    margin: 0 auto;
+    margin-top: 48px;
+    margin-bottom: 100px;
+    padding: 0 10px;
+    
+}
+
+.menu-item img{
+    width: 100%;
+    height: 200px;
+    
+}
+
+
+
+
+
+.menu-name{
+    color: #d30202;
+    font-size: 38px;
+    margin-top: -12px;
+    margin-bottom: 20px;
+
+}
+
+
+.text-menu{
+    line-height: 1.47;
+}
+
+.section3{
+   text-align: center;
+   margin-bottom: 75px;
+}
+
+.img-box{
+    display: flex;
+    margin-top: 30px;
+    overflow-x: auto;
+
+}
+
+.section4{
+    margin: 0 auto 80px;
+    max-width: 1000px;
+    padding: 0 10px;
+}
+
+.event .midashi-logo{
+    text-align: center;
+}
+
+.event-box{
+    
+    margin: 0 auto;
+    height: auto;
+    border: 3px solid #4f260b;
+    background-color: #fff;
+    margin-top: 40px;
+    padding: 30px 95px;
+}
+
+.event-item{
+    display: flex;
+    font-size: 23px;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+
+
+.event-item td {
+    line-height: 1.95;
+    
+}
+
+.section5 .midashi-logo{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 46px;
+}
+
+.map {
+    width: 100%;
+    height: 100vh;
+    filter: grayscale(100%) invert(92%) contrast(83%);
+}
+
+
+.section6{
+    width: auto;
+    height: auto;
+    background-color: #fff;
+}
+
+.footer{
+    display: flex;
+    margin: 0 auto;
+    gap: 160px;
+    padding: 82px 10px 0px  ;
+
+}
+
+.footer img{
+    height: 50px;
+    width: auto;
+    margin-top: -9px;
+}
+
+.text-footer li{
+    padding-bottom: 15px;
+}
+
+.c-text{
+    text-align: center;
+    padding: 80px 0px ;
+    
+}
+
+.to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 125px;
+}

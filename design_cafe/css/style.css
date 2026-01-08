@@ -17,6 +17,7 @@ html{
     padding-left: 2.86%;
     padding-right: 7.55%;
     position: absolute;
+    z-index: 99999;
     width: 100%;
     top: 0;
     left: 0;
@@ -43,6 +44,17 @@ html{
     font-weight: bold;
 }
 
+.slick-dots{
+    bottom: 16px;
+}
+
+.slick-dots li button:before{
+    color: #fff;
+}
+
+.slick-dots li.slick-active button:before{
+    color: #fff;
+}
 
 
 .second{
@@ -79,6 +91,10 @@ html{
     max-width: 1000px;
     margin: 0 auto;
     
+}
+
+#about_us-sp{
+    display: none;
 }
 
 .aboutus{
@@ -138,9 +154,6 @@ html{
 }
 
 
-
-
-
 .menu-name{
     color: #d30202;
     font-size: 38px;
@@ -167,6 +180,8 @@ html{
 .img-box img{
     width: 20%;
 }
+
+
 
 .section4{
     margin: 0 auto 80px;
@@ -198,7 +213,9 @@ html{
     max-width: 647px;
 }
 
-
+.td-text{
+    text-decoration: underline;
+}
 
 .event-item p {
     line-height: 1.95;
@@ -213,6 +230,7 @@ html{
 .map {
     width: 100%;
     height: 470px;
+    vertical-align: bottom;
     filter: grayscale(100%) invert(92%) contrast(83%);
 }
 
@@ -264,7 +282,10 @@ html{
     .hhd{
         font-size:38px;
     }
-
+    
+    .pc-only{
+        display:block;
+    }
     .main{
         font-size: 67px;
     }
@@ -364,7 +385,8 @@ html{
     }
 
     @media screen and (max-width:768px){
-        .logo {
+
+    .logo {
         width: 50%;
         padding-left: 20px;
         padding-top: 20px;
@@ -377,15 +399,35 @@ html{
         flex-direction: column;
     }
 
+    .pc-only{
+        display: none;
+    }
+    #about_us{
+        display: none;
+    }
+    #about_us-sp{
+        display: block;
+    }
+
+    .section1-sp .midashi-logo{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .section1-sp .aboutus2{
+        font-size: 36px;
+    }
+    .section1-sp .s-text2{
+        font-size: 16px;
+    }
+
     .aboutus{
         width: 100%;
         padding: 0 10px;
         text-align: left;
     }
 
-    .aboutus .midashi-logo{
-        text-align: center;
-    }
+    
 
     .img-about{
         width: 100%;
@@ -458,13 +500,17 @@ html{
     .event-item{
         display: flex;
         flex-direction: column;
+        max-width: 355px;
         font-size: 16px;
         gap: 0;
         padding: 15px 10px;
         white-space: nowrap;
+    
+    }
+
+    .event-item p{
         overflow: hidden;
-
-
+        text-overflow: ellipsis;
     }
 
     .midashi-logo img{
